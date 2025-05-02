@@ -70,7 +70,7 @@ export class Wallet {
       }
 
       // Remove any prefixes if present and ensure uppercase
-      const cleanPrivateKey = privateKey.replace(/^00|s/, '').toUpperCase();
+      const cleanPrivateKey = privateKey.replace(/^(?:00|s)/, '').toUpperCase();
       
       try {
         // First try to treat it as a seed without the 's' prefix
