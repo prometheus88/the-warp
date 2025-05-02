@@ -40,10 +40,6 @@ export class SwitchWalletHandler implements IHandler<typeof SwitchWalletMethod> 
     if (params.address === this.context.derivedWallet.address) {
       // Update context
       await this.context.updateActiveWallet(undefined);
-      // Update state
-      await this.context.stateManager.set({
-        activeImportedWallet: undefined,
-      });
       return { address: params.address };
     }
 
