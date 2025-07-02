@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "The Warp - MetaMask XRPL Snap - Securely manage your XRP and interact with XRPL-based DApps directly from MetaMask",
   "proposedName": "The Warp",
   "repository": {
@@ -33,5 +33,6 @@
     },
     "endowment:ethereum-provider": {}
   },
-  "manifestVersion": "0.1"
+  "manifestVersion": "0.1",
+  "platformVersion": "6.22.0"
 }
