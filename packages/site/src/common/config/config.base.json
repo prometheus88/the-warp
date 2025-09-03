@@ -32,6 +32,10 @@
     "devnet": {
       "baseReserveCostInXrp": "10",
       "ownerReserveCostInXrpPerItem": "2"
+    },
+    "pftlTestnet": {
+      "baseReserveCostInXrp": "10",
+      "ownerReserveCostInXrpPerItem": "2"
     }
   },
   "featureFlags": {
@@ -62,7 +66,8 @@
   "nodeUrls": {
     "mainnet": "wss://s2.ripple.com/",
     "testnet": "wss://s.altnet.rippletest.net:51233/",
-    "devnet": "wss://s.devnet.rippletest.net:51233/"
+    "devnet": "wss://s.devnet.rippletest.net:51233/",
+    "pftlTestnet": "wss://5.161.223.30:6005"
   },
   "backendUrl": "https://xrpl-snap-giveaway.peersyst.tech",
   "surveyUrl": "https://gleam.io/4mkf3/xrpl-metamask-snap-10000-xrp-early-adopter-campaign"

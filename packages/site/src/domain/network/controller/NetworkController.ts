@@ -28,6 +28,11 @@ export default class NetworkController {
         this.baseReserveCostInXrp = config.xrplNetwork.testnet.baseReserveCostInXrp;
         this.ownerReserveCostInXrpPerItem = config.xrplNetwork.testnet.ownerReserveCostInXrpPerItem;
         break;
+      case NetworkChainId.PFTL_TESTNET:
+        node = config.nodeUrls.pftlTestnet;
+        this.baseReserveCostInXrp = config.xrplNetwork.pftlTestnet.baseReserveCostInXrp;
+        this.ownerReserveCostInXrpPerItem = config.xrplNetwork.pftlTestnet.ownerReserveCostInXrpPerItem;
+        break;
       default:
         node = config.nodeUrls.mainnet;
         this.baseReserveCostInXrp = config.xrplNetwork.mainnet.baseReserveCostInXrp;

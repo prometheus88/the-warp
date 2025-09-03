@@ -19,4 +19,5 @@ export enum NetworkChainId {
   MAINNET = 0,
   TESTNET = 1,
   DEVNET = 2,
+  PFTL_TESTNET = 2025,
 }

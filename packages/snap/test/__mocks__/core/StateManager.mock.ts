@@ -4,6 +4,9 @@ import { DEFAULT_NETWORKS } from '../../../src/core/StateManager';
 export const MOCKED_STATE: State = {
   networks: DEFAULT_NETWORKS,
   activeNetwork: DEFAULT_NETWORKS[0] as Network,
+  importedWallets: [],
+  activeImportedWallet: undefined,
+  derivedWalletAddress: undefined,
 };
 
 export class StateManagerMock {

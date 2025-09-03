@@ -41,6 +41,12 @@ export const DEFAULT_NETWORKS: Network[] = [
     nodeUrl: 'https://s.devnet.rippletest.net:51234',
     explorerUrl: 'https://devnet.xrpl.org',
   },
+  {
+    chainId: 2025,
+    name: 'PFTL Testnet',
+    nodeUrl: 'http://5.161.223.30:8005',
+    explorerUrl: 'https://explorer.testnet.postfiat.org',
+  },
 ];
 
 export const DEFAULT_STATE: State = {
