@@ -7,6 +7,9 @@ const config: SnapConfig = {
     port: 8080,
   },
   polyfills: true,
+  stats: {
+    verbose: false,
+  },
 };
 
 export default config;
